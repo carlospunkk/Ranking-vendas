@@ -1,4 +1,4 @@
-const rankingData = [
+/*const rankingData = [
     { name: 'Bruno' , vendas: 30000, photo: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?cs=srgb&dl=pexels-justin-shaifer-1222271.jpg&fm=jpg',informacoes:''},
     { name: 'Flavia' , vendas: 1000, photo:'/img/fundoimg.svg' ,informacoes:''},
     { name: 'Julia' , vendas: 5000, photo: '/img/fundoimg.svg',informacoes:''},
@@ -10,13 +10,20 @@ const rankingData = [
     
  
     // Adicione mais dados de ranking aqui
-];
+];*/
+
+// enviar dados e criar o modelo de ranking
+
+
+
+
 
 /*
 localStorage.setItem('rankingData', JSON.stringify(rankingData));
 const resgate = localStorage.getItem('rankingData')
 localStorage.removeItem('rankingData')
 localStorage.removeItem('livro')*/
+
 
 
 

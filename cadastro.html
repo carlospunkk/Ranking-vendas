@@ -4,8 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="cadastro.css">
 </head>
 <body>
-    <input type="button" value="+"> Adicionar Vendedor</input>
+    <h1>Cadastrar Colaborador</h1>
+<section class="container-cadastro">
+    <div class="cadastro">
+        <p>
+            Url foto: <input type="url"  placeholder="url da foto" id="infoto"></input>
+        </p>
+        
+        <p>
+           Nome: <input type="text" placeholder="Nome do vendedor" id="innome"></input>
+        </p>
+        <p>
+            Vendas: <input type="text" placeholder="Digite as vendas R$" id="invendas"></input>
+        </p>
+        <p>Setor:
+            <input list="insetores" id="setores">
+            <datalist id="insetores">
+                <option value="Outros"></option> 
+               <option value="Cerâmica"></option> 
+                <option value="Cozinhas"></option>
+                <option value="Drive"></option>
+                <option value="Decoração"></option>
+                <option value="Encanamentos"></option>
+                <option value="Elétrica"></option>
+                <option value="Iluminação"></option>
+                <option value="Jardim"></option>
+                <option value="Materiais"></option>
+                <option value="Madeiras"></option>
+                <option value="Organização"></option>
+                <option value="Sanitários"></option>
+            </datalist>
+          </p>
+    </div>
+  
+  
+</section>
+
+<div class="container-botoes"> 
+    <p>lista dos vendedores cadastrados:
+        <input list="vendedores" placeholder="vendedores cadastrados" >
+        <datalist id="vendedores">
+            <option value="nome1" ></option> 
+            <option value="nome2" ></option> 
+         
+        </datalist>
+      </p>
+    <button id="btncadastrar">
+        <p>+</p>Cadastrar Vendedor
+   </button>
+   <button id="btnexcluir">
+       <p>-</p>Excluir Vendedor
+   </button>
+
+</div>
+        
+<script src="/ranking.js"></script>
 </body>
 </html>
