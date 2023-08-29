@@ -23,8 +23,9 @@
         <p>Setor:
             <input list="insetores" id="setores">
             <datalist id="insetores">
+                <option></option>
                 <option value="Outros"></option> 
-               <option value="Cerâmica"></option> 
+                <option value="Cerâmica"></option> 
                 <option value="Cozinhas"></option>
                 <option value="Drive"></option>
                 <option value="Decoração"></option>
@@ -45,10 +46,9 @@
 
 <div class="container-botoes"> 
     <p>lista dos vendedores cadastrados:
-        <input list="vendedores" placeholder="vendedores cadastrados" >
-        <datalist id="vendedores">
-            <option value="nome1" ></option> 
-            <option value="nome2" ></option> 
+        <input list="invendedores" placeholder="vendedores cadastrados" id="vendedores" >
+        <datalist class = invendedores id="invendedores" >
+          
          
         </datalist>
       </p>
@@ -61,6 +61,6 @@
 
 </div>
         
-<script src="/ranking.js"></script>
+<script src="/cadastro.js"></script>
 </body>
 </html>
