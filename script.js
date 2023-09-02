@@ -1,3 +1,12 @@
+
+/*import {numeros, nome} from './cadastro.js'
+
+console.log(numeros)
+console.log(nome)
+
+*/
+
+
 /*const rankingData = [
     { name: 'Bruno' , vendas: 30000, photo: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?cs=srgb&dl=pexels-justin-shaifer-1222271.jpg&fm=jpg',informacoes:''},
     { name: 'Flavia' , vendas: 1000, photo:'/img/fundoimg.svg' ,informacoes:''},

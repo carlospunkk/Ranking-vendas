@@ -1,0 +1,23 @@
+// dentro de script.js
+
+// import 
+
+import {numeros, nome} from './cadastro.js'
+
+console.log(numeros)
+console.log(nome)
+
+importo as variaveis que estão em cadastro.js 
+
+// dentro de cadastro.js
+
+// export 
+
+const numeros = 12;
+const nome = "carlos";
+
+export {
+  numeros , nome
+}
+coloco export e o que quero exportar para dentro 
+

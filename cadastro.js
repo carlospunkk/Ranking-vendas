@@ -1,4 +1,6 @@
 
+
+
 const inputfoto = document.getElementById('infoto')
 const inputnome = document.getElementById('innome')
 const inputvenda = document.getElementById('invendas')
@@ -9,7 +11,7 @@ const inputsetor = document.getElementById('setores')
 // botao salvar
 const Save = document.getElementById('btncadastrar')
 // cria o Array e  envia dados para o localstorage
-Save.addEventListener("click", () => {
+ Save.addEventListener("click", () => {
     let dados = new Array()
   /**
      * Verifica se a propriedade existe
@@ -114,11 +116,12 @@ function excluir(){
     //dados.splice(nome, 1)
     
     //console.log(dados.nome)
- localStorage.removeItem(dados[1])
+ localStorage.removeItem('dados')
 })    
 
 
 }
+
 
 // excluir vendedor 
 const btnExcluir = document.getElementById('btnexcluir')
